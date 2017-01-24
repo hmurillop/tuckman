@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  font-size: 0.800em;
+}
+
+body{
+		font-family: 'Montserrat', sans-serif;
+		
+}
+
+#cuadro_logo{
+	height: 18.000em;
+	background-color: #fff;
+}
+
+#nav, #info{
+	padding: 0;
+}
+
+#cuadrado{
+	height: 14.700em;
+	background: #2db8b7;
+	border-bottom: 6px solid #242b2e;
+	max-width: 100%;
+	clear: both;
+}
+
+h1{
+	text-align: center;
+}
+
+#menu{
+	background-color: #242b2e;
+		font-family: 'Fjalla One', sans-serif;
+}
+
+#menu_lateral{
+	height: 24.375em;
+	margin: 0;
+	padding: 0;
+	background-color: #30383c;
+}
+
+#logo{
+	margin: 10% 10%;
+}
+
+#menu_lateral li{
+	list-style: none;
+	text-align: right;
+	padding-right: 5%;
+	padding: 0.670em 8%;
+	border-bottom: 0.185em solid #293034;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+}				
+
+#menu_lateral a:hover{
+	text-decoration: none;
+	color: #293034;
+}
+
+#menu_lateral li:hover{
+	background-color: #2db8b7;
+}
+
+#antecedentes h2, #bio h2, #formacion h2, #conflicto h2, #normalizacion h2, #desempeno h2, 
+#terminacion h2, #conclusiones h2, #nosotros h2{
+	color: #31393d;
+	font-size: 2.5em;
+	margin-bottom: 5%;
+	background-color: #2db8b7;
+	line-height: 1.5;
+}
+
+#antecedentes, #bio, #formacion, #conflicto, #normalizacion, #desempeno, #terminacion, 
+#conclusiones, #nosotros{
+	padding: 1.25em 2%;
+	font-size: 16px;
+	text-align : justify;
+	clear: both;
+	width: 94%;
+}
+
+section #services {
+	padding: 0;
+  	transform: translatez(0);
+  	margin: 0;
+  	background-color: #242b2e;
+}
+
+section #services li {
+  	width: 3.000em;
+  	display: inline-block;
+	margin-right: 6%;
+  	list-style: none;
+}
+
+section #services li div {
+  	width: 1.750em;
+  	height: 1.650em;
+  	color: #fff;
+  	font-size: 2.4em;
+  	text-align: center;
+  	line-height: 1.450em;
+  	transition: all 0.5s ease;
+  	cursor: pointer;
+  	margin-left: 0.390625em;
+  	margin-top: 12%;
+}
+
+section #services li div:hover {
+  	transform: rotate(360deg);
+  	border-radius: 6.250em;
+  	color: #2db8b7;
+}
+
+section #services a{
+  	text-decoration: none;
+}
+
+section #services #txt_social{
+	color: #fff;
+	font-size: 16px;
+	padding: 1.25em 6%;
+}
+
+#img_tuckman{
+	border: 0.125em solid #2db8b7;
+	padding: 0.625em 1.10%;
+}
+
+#imgPerfil{
+	padding: 1.25em 2.25%;
+	border: 1px solid #242b2e;
+}
+
+#txtPerfil{
+	font-size: 12px;
+	padding-left: 1.25em;
+	text-align: center;
+	margin-bottom: 3.4%;
+}
+
+.col-lg-8, .col-lg-2{
+	padding-left: 0;
+}
+
+p{
+	clear: both;
+}
+
+#ir-arriba {
+	display: none;
+	padding:0.6818181818181818em 1.12%;
+	background: #30383c;
+	font-size: 22px;
+	color: #fff;
+	cursor: pointer;
+	position: fixed;
+	bottom: 5.5%;
+	right: 0.9090909090909091em;
+	z-index: 1;
+}
+
+#ir-arriba:hover {
+	background:#30383c;
+	color:#2db8b7;
+	z-index: 1;
+}
+
+footer{
+	z-index: -1;
+	background: #2db8b7;
+	padding-right: 0;
+}
+
+#cuadroFooter{
+	height: 4.400em;
+	background: #242b2e;
+	margin: 0;
+	max-width: 100%;
+	clear: both;
+	z-index: -1;
+}
+
+#footer-end p{
+	font-size: 1.000em;
+	color: #242b2e;
+	margin-top: 2%;
+	text-align: center;
+	padding: 0;
+	z-index: 1;
+}
+
+#footer-text{
+	color: #fff;
+}
+
+#txtEmail{
+	color: #4b4b4b;
+	font-size: 1.125em;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	padding-left: 1%;
+	width: 60%;
+}
+
+#cuadroFooter a{
+	font-size: 12px;
+}
+
+@media only screen and (max-width : 320px) {
+	#logo{
+		display: block;
+		margin: 0 auto;
+	}
+	#menu_lateral{
+		text-align: center;
+	}
+	#img_tuckman{
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+/* Actua cuando la pantalla es entre 320px y 639px de ancho MOBILE */
+@media only screen and (min-device-width: 321px) and (max-device-width: 639px) {
+	#logo{
+		display: block;
+		margin: 0 auto;
+	}
+	#menu_lateral{
+		text-align: center;
+	}
+	#img_tuckman{
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 321px) and (max-width: 639px) {
+	#logo{
+		display: block;
+		margin: 0 auto;
+	}
+	#menu_lateral{
+		text-align: center;
+	}
+	#img_tuckman{
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+/* Actua cuando la pantalla esta entre 640 y 979px de ancho */
+@media only screen and (min-width: 640px) and (max-width: 979px) {
+	#logo{
+		display: block;
+		margin: 0 auto;
+	}
+	#menu_lateral li{
+		text-align: center;
+	}
+	#img_tuckman{
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1224px) {
+	#logo{
+		display: block;
+		margin: 0 auto;
+	}
+	#menu_lateral{
+		text-align: center;
+	}
+	#img_tuckman{
+		display: block;
+		margin: 0 auto;
+	}
+	
+
+}
